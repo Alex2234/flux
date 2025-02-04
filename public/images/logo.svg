@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" >
+  <!-- Текст логотипа -->
+  <text x="0" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="black">RUSFLUX</text>
+  
+  <!-- Красная линия под логотипом, начинается с буквы "U" -->
+  <rect x="38" y="55" width="190" height="4" fill="red" />
+</svg>
+
+

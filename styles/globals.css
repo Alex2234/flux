@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Slovic';
+	src: url('../public/fonts/Slovic_Demo-Historic.woff2') format('woff2'),
+		url('../public/fonts/Slovic_Demo-Historic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
