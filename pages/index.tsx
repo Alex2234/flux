@@ -9,19 +9,19 @@ export default function Home() {
 	return (
 		<div>
 			<Header visible={true} />
-			<section id='main' className=' bg-gray-200'>
+			<section id='main'>
 				<Main />
 			</section>
-			<section id='products' className='scroll-mt-40 p-8'>
+			<section id='products' className='scroll-mt-40'>
 				<CategoriesPage />
 			</section>
-			<section id='certificates' className='p-8'>
+			<section id='certificates' className='scroll-mt-40'>
 				<Certificates />
 			</section>
-			<section id='partners' className='p-8'>
+			<section id='partners' className='scroll-mt-40'>
 				<Partners />
 			</section>
-			<section id='contacts'>
+			<section id='contacts' className='scroll-mt-40'>
 				<Contacts />
 			</section>
 		</div>

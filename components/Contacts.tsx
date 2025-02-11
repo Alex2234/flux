@@ -10,10 +10,20 @@ const Contacts: React.FC = () => {
 	return (
 		<section
 			id='contacts'
-			className='py-16 bg-gradient-to-br from-blue-50 via-white to-blue-100 backdrop-blur-lg shadow-lg rounded-xl'
+			className='py-16 mt-8'
+			style={{
+				backgroundImage: "url('./images/background5.webp')",
+				backgroundSize: 'cover',
+				backgroundRepeat: 'no-repeat',
+			}}
 		>
 			<div className='container mx-auto px-6 md:px-12'>
-				<h2 className='text-4xl font-extrabold text-center text-gray-800 mb-12 tracking-tight'>
+				<h2
+					className='relative z-50 text-4xl font-extrabold text-center text-white mb-12 tracking-tight font-slovic'
+					style={{
+						textShadow: '3px 3px 3px black',
+					}}
+				>
 					Контакты
 				</h2>
 				<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>

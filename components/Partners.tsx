@@ -6,10 +6,20 @@ const Partners: React.FC = () => {
 	return (
 		<section
 			id='partners'
-			className='py-16 bg-gradient-to-br from-blue-50 via-white to-blue-100 backdrop-blur-lg shadow-lg rounded-xl'
+			className='py-16 mt-8'
+			style={{
+				backgroundImage: "url('./images/background4.webp')",
+				backgroundSize: 'cover',
+				backgroundRepeat: 'no-repeat',
+			}}
 		>
 			<div className='container mx-auto px-4 md:px-12 text-center'>
-				<h2 className='text-4xl font-extrabold text-gray-800 mb-12 tracking-tight'>
+				<h2
+					className='relative z-50 text-4xl font-extrabold text-white mb-12 tracking-tight font-slovic'
+					style={{
+						textShadow: '3px 3px 3px black',
+					}}
+				>
 					Наши партнёры
 				</h2>
 				<div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-8'>
@@ -23,8 +33,7 @@ const Partners: React.FC = () => {
 								alt={partner.name}
 								width={300}
 								height={200}
-								objectFit='contain'
-								className='max-w-full h-auto'
+								className='object-fit max-w-full h-auto'
 							/>
 						</div>
 					))}

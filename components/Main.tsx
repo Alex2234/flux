@@ -4,24 +4,33 @@ const Main = () => {
 			{/* Первый экран с картинкой hohloma.webp */}
 			<section
 				id='main'
-				className='relative flex items-center justify-center bg-cover bg-center overflow-hidden'
-				style={{
-					backgroundImage: `url('/images/hohloma.webp')`,
-					backgroundSize: 'cover',
-					backgroundPosition: 'center',
-					backgroundRepeat: 'no-repeat',
-				}}
+				className='relative flex items-center justify-center bg-white overflow-hidden py-20 h-80'
 			>
-				{/* Затемняющий слой */}
-				<div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-30'></div>
+				{/* Изображение в левом верхнем углу */}
+				<div
+					className='absolute top-1/2 -translate-y-1/2 left-0 w-40 h-80 md:w-84 md:h-54 lg:w-40 lg:h-60'
+					style={{
+						backgroundImage: `url('/images/title.png')`,
+						backgroundSize: 'contain',
+						backgroundRepeat: 'no-repeat',
+					}}
+				></div>
 
-				{/* Текст с отступами сверху и снизу */}
-				<div className='text-center relative z-10 font-slovic text-[#f6fbff] mt-12 mb-12'>
-					{/* Светло-серый цвет */}
+				{/* Изображение в правом нижнем углу */}
+				<div
+					className='absolute bottom-1/2 translate-y-1/2 right-0 w-40 h-80 md:w-84 md:h-54 lg:w-40 lg:h-60'
+					style={{
+						backgroundImage: `url('/images/title.png')`,
+						backgroundSize: 'contain',
+						backgroundRepeat: 'no-repeat',
+					}}
+				></div>
+
+				<div className='text-center relative z-10 font-slovic text-[#ffffff]'>
 					<h1
 						className='text-5xl xl:text-7xl lg:text-6xl md:text-5xl sm:text-6xl tracking-wide drop-shadow-lg'
 						style={{
-							textShadow: '2px 2px 2px black', // Черная обводка 1 пиксель
+							textShadow: '2px 2px 2px black',
 						}}
 					>
 						Паяльные материалы от компании &quot;РУССКИЙ ФЛЮС&quot;
@@ -32,7 +41,7 @@ const Main = () => {
 			{/* Второй экран с картинкой background.webp, теперь как изображение */}
 			<section
 				id='second'
-				className='relative flex items-center justify-center'
+				className='relative flex items-center justify-center shadow-[0px_-4px_10px_rgba(0,0,0,0.4)]'
 			>
 				<img
 					src='/images/background.webp'

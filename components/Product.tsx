@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 
 interface ProductProps {
 	title: string
@@ -103,14 +102,15 @@ const Product: React.FC<ProductProps> = ({
 				{/* Условный рендеринг ссылки на паспорт */}
 				{passportLink && (
 					<div className='mb-4'>
-						<Link
+						<a
 							href={passportLink}
-							target='_blank'
-							download={passportLink}
+							download
 							className='text-blue-600 font-semibold underline'
+							target='_blank'
+							rel='noopener noreferrer'
 						>
 							Скачать паспорт
-						</Link>
+						</a>
 					</div>
 				)}
 
