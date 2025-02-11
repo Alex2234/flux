@@ -5,11 +5,19 @@ class MyDocument extends Document {
 		return (
 			<Html lang='ru'>
 				<Head>
+					<title>Официальный сайт компании Русский флюс</title>
+					<meta
+						name='description'
+						content='Купить флюс паяльный. Купить материалы для паяния. Купить флюс. купить припой. Русский флюс официальный сайт.'
+					/>
+					<meta name='keywords' content='флюс, припой, паяние, пайка' />
+					<meta name='author' content='Русский флюс' />
 					<link
 						href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap'
 						rel='stylesheet'
 					/>
-
+					<link rel='canonical' href='https://rusflux31.ru' />
+					<meta name='yandex-verification' content='5da2125cbf1f92a7' />
 					{/* Яндекс.Метрика */}
 					<script
 						dangerouslySetInnerHTML={{

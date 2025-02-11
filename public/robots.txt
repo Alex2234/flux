@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rusflux31.ru
+
+# Sitemaps
+Sitemap: https://rusflux31.ru/sitemap.xml
