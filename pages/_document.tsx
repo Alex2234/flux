@@ -16,6 +16,7 @@ class MyDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap'
 						rel='stylesheet'
 					/>
+					<link rel='icon' href='./images/favicon.ico' />
 					<link rel='canonical' href='https://rusflux31.ru' />
 					<meta name='yandex-verification' content='5da2125cbf1f92a7' />
 					{/* Яндекс.Метрика */}
