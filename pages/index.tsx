@@ -1,4 +1,5 @@
 import Main from '@/components/Main'
+import Title from '@/components/Title'
 import CategoriesPage from './categories'
 import Header from '@/components/Header'
 import Certificates from '@/components/Certificates'
@@ -7,8 +8,19 @@ import Contacts from '@/components/Contacts'
 
 export default function Home() {
 	return (
-		<div>
-			<Header visible={true} />
+		<>
+			<div
+				style={{
+					backgroundImage: `url('/images/Russia-Flag.webp')`,
+					backgroundSize: 'cover',
+					backgroundPosition: 'center',
+					backgroundRepeat: 'no-repeat',
+					height: 'auto',
+				}}
+			>
+				<Header visible={true} />
+				<Title />
+			</div>
 			<section id='main'>
 				<Main />
 			</section>
@@ -24,6 +36,6 @@ export default function Home() {
 			<section id='contacts' className='scroll-mt-40'>
 				<Contacts />
 			</section>
-		</div>
+		</>
 	)
 }
