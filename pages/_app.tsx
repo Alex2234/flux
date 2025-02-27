@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Script from 'next/script'
-import { Inter, Montserrat } from '@next/font/google'
+import { Inter, Montserrat } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600'] })
 const montserrat = Montserrat({
