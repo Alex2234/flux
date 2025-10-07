@@ -1,7 +1,7 @@
 export const certificateData = [
 	{
 		id: 1,
-		image: '/data/certificate/certificate1.webp',
+		image: '/data/certificate/certificate10.webp',
 		title: 'Сертификат соответствия',
 	},
 	{
