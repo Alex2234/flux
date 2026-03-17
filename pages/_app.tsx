@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Footer from '../components/Footer'
+import CookieConsent from '../components/CookieConsent'
 import Script from 'next/script'
 import { Inter, Montserrat } from 'next/font/google'
 
@@ -68,6 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<Component {...pageProps} />
 			</main>
 			<Footer />
+			<CookieConsent />
 		</>
 	)
 }
