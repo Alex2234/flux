@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts: React.FC = () => {
 	const phoneNumber = '+7 (910) 320-15-22'
 	const email = 'rusflux@mail.ru'
-	const address = 'г. Белгород, ул. Магистральная, д. 55а, офис 5'
+	const address = 'Белгородская область, Яковлевский район, с. Драгунское, ул. Центральная, д. 52'
 	const telegramLink = 'https://t.me/andrew_1n'
 	const whatsappLink = 'https://wa.me/79103201522'
 
